@@ -1,0 +1,10 @@
+{
+  "domain": "ebok_tarnow",
+  "name": "eBOK Tarnów",
+  "version": "0.1.4",
+  "documentation": "https://ebok.tw.tarnow.pl/",
+  "requirements": ["certifi>=2025.1.31"],
+  "codeowners": [],
+  "config_flow": true,
+  "iot_class": "cloud_polling"
+}

@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Połącz z eBOK Tarnów",
+        "description": "Podaj adres portalu oraz dane logowania do eBOK.",
+        "data": {
+          "base_url": "Adres portalu",
+          "username": "Login",
+          "password": "Hasło"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Portal odrzucił dane logowania.",
+      "cannot_connect": "Nie można połączyć się z portalem lub odczytać wskazania licznika."
+    },
+    "abort": {
+      "already_configured": "Ten portal jest już skonfigurowany."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Historia odczytów",
+        "description": "Importuj historyczne odczyty licznika do statystyk długoterminowych Home Assistant.",
+        "data": {
+          "import_history": "Importuj historyczne odczyty"
+        }
+      }
+    }
+  }
+}

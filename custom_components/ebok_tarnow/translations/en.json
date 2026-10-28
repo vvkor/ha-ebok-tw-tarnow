@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to eBOK Tarnów",
+        "description": "Enter the portal URL and your eBOK credentials.",
+        "data": {
+          "base_url": "Portal URL",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The portal rejected the credentials.",
+      "cannot_connect": "Could not connect to the portal or parse the meter reading."
+    },
+    "abort": {
+      "already_configured": "This portal is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Historical readings",
+        "description": "Import historical meter readings into Home Assistant long-term statistics.",
+        "data": {
+          "import_history": "Import historical readings"
+        }
+      }
+    }
+  }
+}
